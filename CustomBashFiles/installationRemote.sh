@@ -1,4 +1,4 @@
-mkdir -p /hardware/RaspberryPi/
+mkdir -p hardware/RaspberryPi/
 cd hardware/RaspberryPi/
 git init
 git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
