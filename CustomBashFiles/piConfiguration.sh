@@ -1,15 +1,8 @@
-sudo su
-echo "sudu su ran"
-passwd
-echo "passwd ran"
-
 sed -i "s/PermitRootLogin without-password/PermitRootLogin yes/" /etc/ssh/sshd_config
-echo "sed ran"
 
 cat > /boot/cmdline.txt <<EOL
 dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 	elevator=deadline fsck.repair=yes rootwait isolcpus=0
 EOL
-echo "blah blah ..at > /boot/cmdline.txt .... ran"
 
 systemctl disable serial-getty@ttyAMA0
 
