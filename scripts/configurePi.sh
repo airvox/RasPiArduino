@@ -32,6 +32,6 @@ chmod +x piduino/tools/arpi_bins/*
 cp piduino/tools/arpi_bins/* /usr/local/bin
 rm -rf piduino
 
-ln -s /usr/local/bin/run-avrdude /usr/bin/run-avrdude
+ln -s -f /usr/local/bin/run-avrdude /usr/bin/run-avrdude
 
 HERE
