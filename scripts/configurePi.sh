@@ -1,3 +1,6 @@
+sudo su <<HERE
+
+passwd
 sed -i "s/PermitRootLogin without-password/PermitRootLogin yes/" /etc/ssh/sshd_config
 
 cat > /boot/cmdline.txt <<EOL
@@ -30,3 +33,5 @@ cp piduino/tools/arpi_bins/* /usr/local/bin
 rm -rf piduino
 
 ln -s /usr/local/bin/run-avrdude /usr/bin/run-avrdude
+
+HERE
