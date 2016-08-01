@@ -1,17 +1,23 @@
 #!/bin/bash
 
-LASTFOLDER=${PWD##*/}
-REQUIREDFOLDER="arduino-1.6.9"
+CURRENT_DIRECTORY_CONTENTS="$(ls)"
 
-if [ $LASTFOLDER == $REQUIREDFOLDER ]; then
+REQFILE1="tools"
+REQFILE2="hardware"
+REQFILE3="libraries"
+REQFILE4="java"
+REQFILE5="arduino"
 
-    mkdir -p hardware/RaspberryPi/
-    cd hardware/RaspberryPi/
-    git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
+
+if [[ 
+		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE1" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE2" && 
+		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE3" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE4" && 
+		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE5" 
+	]]; then
+    
+	echo "Correct Directory .. <Add the code here>"
 
 else
-	echo "Place the configureArduinoIDE.sh file in the Arduino-1.6.9 folder."
+    echo "Place the configureArduinoIDE.sh file in the Arduino-1.6.9 folder."
 fi
-
-
 
