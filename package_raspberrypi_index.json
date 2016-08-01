@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"raspberrypi",
+         "name":"raspi",
          "maintainer":"KNYSYSAugust",
          "websiteURL":"www.knysys.com",
          "email":" ",
