@@ -23,7 +23,7 @@
                },
                "boards": [
                   {
-                     "name": "RaspberryPi2"
+                     "name": "RasPi2"
                   }
                ],
               "toolsDependencies": [
