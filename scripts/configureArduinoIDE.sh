@@ -15,9 +15,11 @@ if [[
 		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE5" 
 	]]; then
     
-	echo "Correct Directory .. <Add the code here>"
+    	mkdir -p hardware/RaspberryPi/
+    	cd hardware/RaspberryPi/
+    	git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
 
 else
-    echo "Place the configureArduinoIDE.sh file in the Arduino-1.6.9 folder."
+    echo "Place the configureArduinoIDE.sh file in the Arduino IDE folder."
 fi
 
