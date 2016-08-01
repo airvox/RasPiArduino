@@ -1,25 +1,36 @@
 #!/bin/bash
 
+OS="$(uname -a)"
 CURRENT_DIRECTORY_CONTENTS="$(ls)"
-
-REQFILE1="tools"
-REQFILE2="hardware"
-REQFILE3="libraries"
-REQFILE4="java"
-REQFILE5="arduino"
-
-
-if [[ 
-		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE1" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE2" && 
-		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE3" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE4" && 
-		"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE5" 
+if [[
+		"$OS" == *"Darwin"*
 	]]; then
-    
-    	mkdir -p hardware/RaspberryPi/
-    	cd hardware/RaspberryPi/
-    	git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
-
+		if [[
+				"$CURRENT_DIRECTORY_CONTENTS" =~ "Arduino.app"
+			]]; then
+				mkdir -p Arduino.app/Contents/Java/hardware/RaspberryPi/
+	    		cd Arduino.app/Contents/Java/hardware/RaspberryPi/
+	    		git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
+		else
+			echo "Kindly place the configureArduinoIDE.sh file in the same folder as Arduino.app"
+		fi
 else
-    echo "Place the configureArduinoIDE.sh file in the Arduino IDE folder."
-fi
 
+	REQFILE1="tools"
+	REQFILE2="hardware"
+	REQFILE3="libraries"
+	REQFILE4="java"
+	REQFILE5="arduino"
+
+	if [[ 
+			"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE1" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE2" && 
+			"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE3" && "$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE4" && 
+			"$CURRENT_DIRECTORY_CONTENTS" =~ "$REQFILE5" 
+		]]; then
+	    	mkdir -p hardware/RaspberryPi/
+	    	cd hardware/RaspberryPi/
+	    	git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
+	else
+	    echo "Kindly place the configureArduinoIDE.sh file in the Arduino IDE folder."
+	fi
+fi
