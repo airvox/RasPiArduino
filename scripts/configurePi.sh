@@ -34,4 +34,6 @@ rm -rf piduino
 
 ln -s -f /usr/local/bin/run-avrdude /usr/bin/run-avrdude
 
+apt-get install ntpdate
+
 HERE
