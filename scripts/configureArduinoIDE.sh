@@ -10,7 +10,7 @@ if [ $LASTFOLDER == $REQUIREDFOLDER ]; then
     git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
 
 else
-	echo Place the configureArduinoIDE.sh file in the Arduino-1.6.9 folder
+	echo "Place the configureArduinoIDE.sh file in the Arduino-1.6.9 folder."
 fi
 
 
