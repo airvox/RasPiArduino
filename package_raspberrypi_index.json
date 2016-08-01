@@ -14,7 +14,7 @@
                "architecture": "avr",
                "version": "1.0",
                "category": "Arduino",
-               "url": "https://github.com/yasir1brahim/RasPiArduino/raw/master/RasPiArduino-master.zip",
+               "url": "https://github.com/yasir1brahim/RasPiArduino/archive/master.zip",
                "archiveFileName": "RasPiArduino-master.zip",
                "checksum": "SHA-256:00a47cad03219577f9ea03b9ef83182c1bf475d155690d976bbe91d46b59796e",
                "size": "1664836",
