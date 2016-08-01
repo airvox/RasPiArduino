@@ -7,6 +7,11 @@ cat > /boot/cmdline.txt <<EOL
 dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 	elevator=deadline fsck.repair=yes rootwait isolcpus=0
 EOL
 
+cat > /etc/rc.local <<EOL
+#!/bin/sh -e
+/usr/local/bin/run-sketch &
+EOL
+
 systemctl disable serial-getty@ttyAMA0
 
 cat > /etc/avahi/services/arduino.service <<EOL
