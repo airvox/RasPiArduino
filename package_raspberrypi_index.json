@@ -1,7 +1,7 @@
 {
    "packages":[
       {
-         "name":"RaspberryPi2",
+         "name":"Raspi2",
          "maintainer":"KNYSYSLLC",
          "websiteURL":"www.knysys.com",
          "email":" ",
@@ -23,7 +23,7 @@
                },
                "boards": [
                   {
-                     "name": "RaspberryPi2"
+                     "name": "RasPi2"
                   }
                ],
               "toolsDependencies": [
