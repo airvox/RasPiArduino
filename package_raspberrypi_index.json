@@ -1,8 +1,8 @@
 {
    "packages":[
       {
-         "name":"Raspi2",
-         "maintainer":"KNYSYSAugust2",
+         "name":"RaspberryPi2",
+         "maintainer":"KNYSYSLLC",
          "websiteURL":"www.knysys.com",
          "email":" ",
          "help":{
@@ -11,19 +11,17 @@
          "platforms":[
             {
                "name": "RaspberryPi2",
-               "architecture": "avr",
-               "version": "1.0",
                "category": "Arduino",
                "url": "https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/piduino.zip",
                "archiveFileName": "RasPiArduino-master.zip",
                "checksum": "SHA-256:7b8eceea6a6249cfc43b5074cdd306bedc84949d306b7521a64457cddf451501",
-               "size": "1664836",
+               "size": "82080939",
                "help":{
                   "online":" "
                },
                "boards": [
                   {
-                     "name": "RasPi2"
+                     "name": "RaspberryPi2"
                   }
                ],
               "toolsDependencies": [
