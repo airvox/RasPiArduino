@@ -12,6 +12,7 @@
             {
                "name": "RaspberryPi2",
                "architecture": "avr",
+               "version": "1.0",
                "category": "Arduino",
                "url": "https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/piduino.zip",
                "archiveFileName": "RasPiArduino-master.zip",
