@@ -43,7 +43,7 @@
 
          "tools":[
          	{
-			"name": "toolChain",
+			"name": "arm-linux-gnueabihf",
 			"version": "1.0.0",
 			"systems": [
          				{
