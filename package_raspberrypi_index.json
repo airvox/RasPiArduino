@@ -50,8 +50,8 @@
 						"host": "arm-linux-gnueabihf",
 						"url": "https://github.com/me-no-dev/RasPiArduino/releases/download/0.0.1/arm-linux-gnueabihf-linux64.tar.gz",
 						"archiveFileName": "arm-linux-gnueabihf-linux64.tar.gz",
-						"size": "91750155"
-						"checksum": "SHA-256:952284010ca70ffe831998ac023569b9766df52948169e03a09a28dc2fcc3a93",
+						"size": "91750155",
+						"checksum": "SHA-256:952284010ca70ffe831998ac023569b9766df52948169e03a09a28dc2fcc3a93"
 					}
      				]
      		}
