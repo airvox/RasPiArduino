@@ -1,0 +1,48 @@
+{
+   "packages":[
+      {
+         "name":"Raspi2",
+         "maintainer":"KNYSYSLLC",
+         "websiteURL":"www.knysys.com",
+         "email":" ",
+         "help":{
+            "online":"www.knysys.com"
+         },
+         "platforms":[
+            {
+               "name": "RaspberryPi2",
+		"architecture": "avr",
+ 	       "version": "1.0",
+               "category": "Arduino",
+               "url": "https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/piduinoWithToolChain.zip",
+               "archiveFileName": "RasPiArduino-master.zip",
+               "checksum": "SHA-256:a696be6674fbac6bb627be29ebea9942b7e41228842b57fd06ad6dfc356dd654",
+               "size": "99070254",
+               "help":{
+                  "online":" "
+               },
+               "boards": [
+                  {
+                     "name": "RasPi2"
+                  }
+               ],
+              "toolsDependencies": [
+                {
+                  "packager": "arduino",
+                  "name": "avr-gcc",
+                  "version": "4.8.1-arduino5"
+                },
+                {
+                  "packager": "arduino",
+                  "name": "avrdude",
+                  "version": "6.0.1-arduino5"
+                }
+              ]
+            }
+         ],
+
+         "tools":[
+      		]
+      }
+   ]
+}
