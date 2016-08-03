@@ -16,7 +16,7 @@
                "category": "Arduino",
                "url": "https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/piduino.zip",
                "archiveFileName": "RasPiArduino-master.zip",
-               "checksum": "SHA-256:81286178278f69557f5b27fce70de00d9390415090eb524105bdc222ac5a65eb",
+               "checksum": "SHA-256:cd7b3e1bae042a5f2b9874bd696cd573cd4bb88ff19805ef4a79b6d89a3e42f9",
                "size": "82080953",
                "help":{
                   "online":" "
@@ -42,14 +42,20 @@
          ],
 
          "tools":[
-         		{
-			"host": "arm-linux-gnueabihf",
-			"url": "https://github.com/me-no-dev/RasPiArduino/releases/download/0.0.1/arm-linux-gnueabihf-linux64.tar.gz",
-			"archiveFileName": "arm-linux-gnueabihf-linux64.tar.gz",
-			"checksum": "SHA-256:952284010ca70ffe831998ac023569b9766df52948169e03a09a28dc2fcc3a93",
-			"size": "91750155"
-			}
-         ]
+         	{
+			"name": "toolChain",
+			"version": "1.0.0",
+			"systems": [
+         				{
+						"host": "arm-linux-gnueabihf",
+						"url": "https://github.com/me-no-dev/RasPiArduino/releases/download/0.0.1/arm-linux-gnueabihf-linux64.tar.gz",
+						"archiveFileName": "arm-linux-gnueabihf-linux64.tar.gz",
+						"checksum": "SHA-256:952284010ca70ffe831998ac023569b9766df52948169e03a09a28dc2fcc3a93",
+						"size": "91750155"
+					}
+     				]
+     		}
+      		]
       }
    ]
 }
