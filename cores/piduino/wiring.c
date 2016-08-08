@@ -178,9 +178,9 @@ int init(){
 
   uint32_t offset = info.peripheralBase - 0x20000000;
 
-  if (info.model == RPI_MODEL_B_PI_2 || info.model == RPI_MODEL_ZERO) {
+  //if (info.model == RPI_MODEL_B_PI_2 || info.model == RPI_MODEL_ZERO) {
     info.revisionNumber = 0x10;
-  }
+  //}
   if(info.revisionNumber >= PINMASKS_LEN || !rpi_model_pinmasks[info.revisionNumber]){
     fprintf(stderr, "UNKNOWN_REVISION: 0x%08X\n", info.revisionNumber);
     return 1;
