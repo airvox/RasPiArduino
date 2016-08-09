@@ -46,4 +46,6 @@ apt-get install ntpdate
 
 echo "Configuration complete"
 
+exec /bin/bash
+
 HERE

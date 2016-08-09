@@ -39,3 +39,4 @@ else
 	fi
 fi
 
+exec /bin/bash
