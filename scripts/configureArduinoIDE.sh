@@ -12,6 +12,7 @@ if [[
 	    		cd Arduino.app/Contents/Java/hardware/RaspberryPi/
 	    		git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
 				wget -qO- https://github.com/me-no-dev/RasPiArduino/releases/download/0.0.1/arm-linux-gnueabihf-osx.tar.gz | tar xvz -C piduino/tools
+				echo "Configuration complete"
 		else
 			echo "Kindly place the configureArduinoIDE.sh file in the same folder as Arduino.app"
 		fi
@@ -32,9 +33,9 @@ else
 	    	cd hardware/RaspberryPi/
 	    	git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
 			wget -qO- https://github.com/me-no-dev/RasPiArduino/releases/download/0.0.1/arm-linux-gnueabihf-linux64.tar.gz | tar xvz -C piduino/tools
+			echo "Configuration complete"
 	else
 	    echo "Kindly place the configureArduinoIDE.sh file in the Arduino IDE folder."
 	fi
 fi
 
-echo "Configuration complete"
