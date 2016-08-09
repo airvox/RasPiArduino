@@ -57,10 +57,10 @@ echo "Downloading required files"
 echo ""
 
 cd /usr/local/bin
-wget -r https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/merge-sketch-with-bootloader.lua
-wget -r https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-avrdude
-wget -r https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-sketch
-wget -r https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/telnet
+wget -O merge-sketch-with-bootloader.lua https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/merge-sketch-with-bootloader.lua
+wget -O run-avrdude https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-avrdude
+wget -O run-sketch https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-sketch
+wget -O telnet https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/telnet
 cd ..
 
 chmod +x bin/*
