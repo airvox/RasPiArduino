@@ -1,16 +1,16 @@
 {
    "packages":[
       {
-         "name":"Raspi2",
-         "maintainer":"KNYSYSLLC",
-         "websiteURL":"www.knysys.com",
+         "name":"Raspi",
+         "maintainer":"By dan kaminsky",
+         "websiteURL":"www.google.com",
          "email":" ",
          "help":{
-            "online":"www.knysys.com"
+            "online":"www.google.com"
          },
          "platforms":[
             {
-               "name": "RaspberryPi2",
+               "name": "RaspberryPi",
 		"architecture": "avr",
  	       "version": "1.0",
                "category": "Arduino",
@@ -23,7 +23,7 @@
                },
                "boards": [
                   {
-                     "name": "RasPi2"
+                     "name": "RasPi"
                   }
                ],
               "toolsDependencies": [
