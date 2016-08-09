@@ -2,7 +2,7 @@
    "packages":[
       {
          "name":"Raspi",
-         "maintainer":"By dan kaminsky",
+         "maintainer":"dan kaminsky",
          "websiteURL":"www.google.com",
          "email":" ",
          "help":{
