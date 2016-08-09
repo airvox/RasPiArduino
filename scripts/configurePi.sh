@@ -29,16 +29,21 @@ EOL
 
 service avahi-daemon restart
 
-apt-get update
-apt-get install telnet git
-
-git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
-chmod +x piduino/tools/arpi_bins/*
-cp piduino/tools/arpi_bins/* /usr/local/bin
-rm -rf piduino
+cd /usr/local/bin
+wget https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/merge-sketch-with-bootloader.lua
+wget https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-avrdude
+wget https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/run-sketch
+wget https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/tools/arpi_bins/telnet
+cd ..
+chmod +x bin/*
 
 ln -s -f /usr/local/bin/run-avrdude /usr/bin/run-avrdude
 
+apt-get update
+apt-get install telnet git
+
 apt-get install ntpdate
+
+echo "Configuration complete"
 
 HERE

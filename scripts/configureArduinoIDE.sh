@@ -36,3 +36,5 @@ else
 	    echo "Kindly place the configureArduinoIDE.sh file in the Arduino IDE folder."
 	fi
 fi
+
+echo "Configuration complete"
