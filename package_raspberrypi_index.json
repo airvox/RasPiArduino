@@ -39,8 +39,8 @@
                 },
                 {
                   "packager": "arduino",
-                  "name": "arm-linux",
-                  "version": "gnueabihf"
+                  "name": "arm-linux-gnueabihf",
+                  "version": "1.0.0"
                 }
               ]
             }
@@ -48,8 +48,8 @@
 
          "tools":[
          	{
-			"name": "arm-linux",
-			"version": "gnueabihf",
+			"name": "arm-linux-gnueabihf",
+			"version": "1.0.0",
 			"systems": [
          				{
 						"host": "linux64",
