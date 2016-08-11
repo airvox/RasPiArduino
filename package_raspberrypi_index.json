@@ -1,0 +1,61 @@
+{
+   "packages":[
+      {
+         "name":"Raspberry",
+         "maintainer":"DanKaminsky",
+         "websiteURL":"www.google.com",
+         "email":" ",
+         "help":{
+            "online":"www.google.com"
+         },
+         "platforms":[
+            {
+               "name": "Raspberry",
+		"architecture": "avr",
+ 	       "version": "1.0",
+               "category": "Arduino",
+               "url": "https://codeload.github.com/yasir1brahim/RasPiArduino/zip/master",
+               "archiveFileName": "RasPiArduino-master.zip",
+               "checksum": "SHA-256:00a47cad03219577f9ea03b9ef83182c1bf475d155690d976bbe91d46b59796e",
+               "size": "1664836",
+               "help":{
+                  "online":" "
+               },
+               "boards": [
+                  {
+                     "name": "Raspberry"
+                  }
+               ],
+              "toolsDependencies": [
+                {
+                  "packager": "arduino",
+                  "name": "avr-gcc",
+                  "version": "4.8.1-arduino5"
+                },
+                {
+                  "packager": "arduino",
+                  "name": "avrdude",
+                  "version": "6.0.1-arduino5"
+                }
+              ]
+            }
+         ],
+
+         "tools":[
+         	{
+			"name": "arm-linux-gnueabihf",
+			"version": "1.0.0",
+			"systems": [
+         				{
+						"host": "arm-linux-gnueabihf",
+						"url": "https://github-cloud.s3.amazonaws.com/releases/48185257/dc9b5bfe-ca76-11e5-9e19-82745695a2c6.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAISTNZFOVBIJMK3TQ%2F20160811%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20160811T061844Z&X-Amz-Expires=300&X-Amz-Signature=f729d7ab4489e425808a2866ccccc316514da1841e47a2fcee36fb72e4bd9cff&X-Amz-SignedHeaders=host&actor_id=10721030&response-content-disposition=attachment%3B%20filename%3Darm-linux-gnueabihf-linux64.tar.gz&response-content-type=application%2Foctet-stream",
+						"archiveFileName": "arm-linux-gnueabihf-linux64.tar.gz",
+						"checksum": "SHA-256:952284010ca70ffe831998ac023569b9766df52948169e03a09a28dc2fcc3a93",
+						"size": "91750155"
+					}
+     				]
+     		}
+      		]
+      }
+   ]
+}
