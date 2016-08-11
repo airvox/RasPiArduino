@@ -1,0 +1,39 @@
+{
+	"packages": [{
+		"name": "Raspberry",
+		"maintainer": "DanKaminsky",
+		"websiteURL": " ",
+		"email": " ",
+		"help": {
+			"online": " "
+		},
+		"platforms": [{
+			"name": "Raspberry",
+			"architecture": "avr",
+			"version": "1.0",
+			"category": "Arduino",
+			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/zip/win",
+			"archiveFileName": "RasPiArduino-win.zip",
+			"checksum": "SHA-256:7d3be2645ba19ffb57b55339440b3e2395af2c514b85cd272919a076e700d1ef",
+			"size": "432564151",
+			"help": {
+				"online": " "
+			},
+			"boards": [{
+				"name": "Raspberry"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "avr-gcc",
+				"version": "4.8.1-arduino5"
+			}, {
+				"packager": "arduino",
+				"name": "avrdude",
+				"version": "6.0.1-arduino5"
+			}]
+		}],
+
+		"tools": []
+		}]
+	}]
+}
