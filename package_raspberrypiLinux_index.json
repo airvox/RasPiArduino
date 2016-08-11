@@ -1,0 +1,39 @@
+{
+	"packages": [{
+		"name": "Raspberry",
+		"maintainer": "DanKaminsky",
+		"websiteURL": " ",
+		"email": " ",
+		"help": {
+			"online": " "
+		},
+		"platforms": [{
+			"name": "Raspberry",
+			"architecture": "avr",
+			"version": "1.0",
+			"category": "Arduino",
+			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/tar.gz/linux",
+			"archiveFileName": "RasPiArduino-linux.tar.gz",
+			"checksum": "SHA-256:cc5540a3b109b39388c8a9a4ea48fbb1548a3c8babad1b8349d9ac9071d79934",
+			"size": "92674571",
+			"help": {
+				"online": " "
+			},
+			"boards": [{
+				"name": "Raspberry"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "avr-gcc",
+				"version": "4.8.1-arduino5"
+			}, {
+				"packager": "arduino",
+				"name": "avrdude",
+				"version": "6.0.1-arduino5"
+			}]
+		}],
+
+		"tools": []
+		}]
+	}]
+}

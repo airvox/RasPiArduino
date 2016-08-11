@@ -1,0 +1,39 @@
+{
+	"packages": [{
+		"name": "Raspberry",
+		"maintainer": "DanKaminsky",
+		"websiteURL": " ",
+		"email": " ",
+		"help": {
+			"online": " "
+		},
+		"platforms": [{
+			"name": "Raspberry",
+			"architecture": "avr",
+			"version": "1.0",
+			"category": "Arduino",
+			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/tar.gz/osx",
+			"archiveFileName": "RasPiArduino-osx.tar.gz",
+			"checksum": "SHA-256:9acfc85670184bd3bdd86d6d38416fe44f3cd8e6cc33f468ad765970a626d508",
+			"size": "103289534",
+			"help": {
+				"online": " "
+			},
+			"boards": [{
+				"name": "Raspberry"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "avr-gcc",
+				"version": "4.8.1-arduino5"
+			}, {
+				"packager": "arduino",
+				"name": "avrdude",
+				"version": "6.0.1-arduino5"
+			}]
+		}],
+
+		"tools": []
+		}]
+	}]
+}
