@@ -56,7 +56,7 @@
 #define PI1_BCMBASE 0x20000000
 #define PI2_BCMBASE 0x3f000000
 
-#define BCM2835_BASE PI1_BCMBASE
+#define BCM2835_BASE PI2_BCMBASE
 
 #define BCM2835_ST_BASE     (BCM2835_BASE | 0x00003000) /* System Timer */
 #define BCM2835_IRQ_BASE    (BCM2835_BASE | 0x0000B000) /* Interrupt control block */
