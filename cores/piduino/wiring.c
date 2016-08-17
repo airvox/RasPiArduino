@@ -176,7 +176,7 @@ int init(){
   RASPBERRY_PI_INFO_T info;
   getRaspberryPiInformation(&info);
 
-  uint32_t offset = info.peripheralBase - 0x20000000;
+  uint32_t offset = 0;//info.peripheralBase - 0x20000000;
 
   //if (info.model == RPI_MODEL_B_PI_2 || info.model == RPI_MODEL_ZERO) {
     info.revisionNumber = 0x10;
