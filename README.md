@@ -36,13 +36,12 @@ OSx
 Pre Requisite :-
 Run this command in the terminal to install gettext : brew install gettext
 ```
+```bash
+https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
+```
 Windows
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiWin_index.json
-```
-
-```bash
-https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
 ```
 * Run the Arduino IDE .
 * Go to File -> Preferences (Ctrl + Comma)
