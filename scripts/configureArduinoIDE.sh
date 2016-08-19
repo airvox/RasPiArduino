@@ -8,6 +8,8 @@ if [[
 		if [[
 				"$CURRENT_DIRECTORY_CONTENTS" =~ "Arduino.app"
 			]]; then
+			/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+			brew install gettext
 				mkdir -p Arduino.app/Contents/Java/hardware/RaspberryPi/
 	    		cd Arduino.app/Contents/Java/hardware/RaspberryPi/
 	    		git clone https://github.com/yasir1brahim/RasPiArduino.git piduino
