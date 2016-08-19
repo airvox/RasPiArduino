@@ -27,27 +27,27 @@ There are 2 ways to set up the Arduino IDE :
 #### Using the Board Manager
 * On Preference window “Additional Boards Manager Urls” paste the json link for your Operating System.
 
-Linux
+####Linux
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
 ```
-OSx
+####OSx
 
 Pre Requisite:
 
-Install Homebrew:
+#####Install Homebrew:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-Install gettext:
+#####Install gettext:
 ```
 brew install gettext
 ```
-JSON link
+#####JSON link
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
 ```
-Windows
+####Windows
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiWin_index.json
 ```
