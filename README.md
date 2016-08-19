@@ -26,7 +26,6 @@ There are 2 ways to set up the Arduino IDE :
 
 #### Using the Board Manager
 * Copy the URL 
-* 
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
 ```
