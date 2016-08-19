@@ -25,11 +25,17 @@ There are 2 ways to set up the Arduino IDE :
 * Using the Bash script
 
 #### Using the Board Manager
-Pre Requisite
+Pre Requisite:
+
+#####Install Homebrew:
 ```
-Run this command in the terminal to install gettext : brew install gettext
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-Copy the URL
+#####Install gettext:
+```
+brew install gettext
+```
+#####JSON link
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
 ```
