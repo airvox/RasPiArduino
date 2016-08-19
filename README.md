@@ -72,7 +72,3 @@ chmod +x configureArduinoIDE.sh
 
 #### Monitoring the sketch
 ![Sketch Monitor](doc/pi_monitor.png)
-
-
-### Links to external tutorials
-* [VIDEO: Setup Arduino IDE for Windows](https://www.youtube.com/watch?v=lZvhtfUlY8Y)
