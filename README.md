@@ -32,9 +32,18 @@ Linux
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
 ```
 OSx
+
+Pre Requisite:
+
+Run the following commands in terminal
+
+Install Homebrew:
 ```
-Pre Requisite :-
-Run this command in the terminal to install gettext : brew install gettext
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Install gettext:
+```
+brew install gettext
 ```
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
