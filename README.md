@@ -18,7 +18,19 @@ chmod +x configurePi.sh
 ./configurePi.sh
 ```
 
-### Instructions for Arduino IDE
+### Instructions for the Arduino IDE
+There are 2 ways to set up the Arduino IDE :
+
+* Using the Board Manager
+* Using the Bash script
+
+#### Using the Board Manager
+Copy the URL
+```bash
+https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
+```
+
+#### Using the Bash script
 * Open the installation folder of Arduino IDE
 * Run these commands in the terminal.
 ```bash
@@ -26,12 +38,12 @@ wget https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/scripts/
 chmod +x configureArduinoIDE.sh
 ./configureArduinoIDE.sh
 ```
-* Restart Arduino IDE and select the RaspberryPI from the list of boards
+### If everything went well
+* Restart Arduino IDE and select RaspberryPI from the list of boards
 * Compile a sketch
 * Select the RespberryPi from the list of Ports (will show the IP address)
 * Upload your sketch and see it go
 
-### If everything went well
 #### Selecting the board from the list of ports
 ![Select Pi Port](doc/pi_select.png)
 
@@ -40,7 +52,3 @@ chmod +x configureArduinoIDE.sh
 
 #### Monitoring the sketch
 ![Sketch Monitor](doc/pi_monitor.png)
-
-
-### Links to external tutorials
-* [VIDEO: Setup Arduino IDE for Windows](https://www.youtube.com/watch?v=lZvhtfUlY8Y)
