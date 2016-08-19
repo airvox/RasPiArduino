@@ -18,7 +18,35 @@ chmod +x configurePi.sh
 ./configurePi.sh
 ```
 
-### Instructions for Arduino IDE
+### Instructions for the Arduino IDE
+There are 2 ways to set up the Arduino IDE :
+
+* Using the Board Manager
+* Using the Bash script
+
+#### Using the Board Manager
+* Copy the URL for your Operating System
+
+Linux
+```bash
+https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
+```
+Windows
+```bash
+https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiWin_index.json
+```
+OSx
+```bash
+https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
+```
+* Run the Arduino IDE .
+* Go to File -> Preferences (Ctrl + Comma)
+* Paste the URL in 'Additional Boards Manager URLs'
+* Go to Tools -> Boards -> Boards Manager
+* Choose 'Contributed' from the drop down at the top left.
+* Install 'Raspberry by DanKaminsky'
+
+#### Using the Bash script
 * Open the installation folder of Arduino IDE
 * Run these commands in the terminal.
 ```bash
