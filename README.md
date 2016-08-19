@@ -31,11 +31,16 @@ Linux
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiLinux_index.json
 ```
+OSx
+```
+Pre Requisite :-
+Run this command in the terminal to install gettext : brew install gettext
+```
 Windows
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiWin_index.json
 ```
-OSx
+
 ```bash
 https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspberrypiOSx_index.json
 ```
