@@ -45,7 +45,7 @@ https://raw.githubusercontent.com/yasir1brahim/RasPiArduino/master/package_raspb
 ```
 * Run the Arduino IDE .
 * Go to File -> Preferences (Ctrl + Comma)
-* Paste the URL in 'Additional Boards Manager URLs'
+* Paste the URL in 'Additional Boards Manager URLs'. Click Ok.
 * Go to Tools -> Boards -> Boards Manager
 * Choose 'Contributed' from the drop down at the top left.
 * Install 'Raspberry by DanKaminsky'
