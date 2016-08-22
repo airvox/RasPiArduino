@@ -12,7 +12,7 @@ if [ -f "$DESTBIN" ]; then
   
   killall arduino-sketch > /dev/null 2>&1
   cd /
-  taskset -c 0 $DESTBIN >> /run/sketch.log 2>&1 &
+  taskset -c 1 $DESTBIN >> /run/sketch.log 2>&1 &
 else
   exit 1;
 fi
