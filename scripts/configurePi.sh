@@ -11,11 +11,11 @@ echo ""
 sed -i "s/PermitRootLogin without-password/PermitRootLogin yes/" /etc/ssh/sshd_config
 
 echo ""
-echo "Isolating core 0"
+echo "Isolating core 1"
 echo ""
 
 cat > /boot/cmdline.txt <<EOL
-dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 	elevator=deadline fsck.repair=yes rootwait isolcpus=0
+dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 	elevator=deadline fsck.repair=yes rootwait isolcpus=1
 EOL
 
 echo ""
