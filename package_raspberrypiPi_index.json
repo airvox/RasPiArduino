@@ -12,10 +12,10 @@
 			"architecture": "avr",
 			"version": "1.0",
 			"category": "Arduino",
-			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/tar.gz/linuxPi3",
-			"archiveFileName": "RasPiArduino-linuxPi3.tar.gz",
-			"checksum": "SHA-256:404683f07dea2002472b0502900f7a5a44c1f8ca3f5a4c9e989ec43bbaa17488",
-			"size": "92666332",
+			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/tar.gz/PiPi3",
+			"archiveFileName": "RasPiArduino-PiPi3.tar.gz",
+			"checksum": "SHA-256:573e7749e599e2a1f02822fa019aaf6d862abddf7dc62815882785511f9d8dd5",
+			"size": "21390816",
 			"help": {
 				"online": " "
 			},
