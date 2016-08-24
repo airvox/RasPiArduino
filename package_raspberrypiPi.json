@@ -1,0 +1,39 @@
+{
+	"packages": [{
+		"name": "Raspberry",
+		"maintainer": "DanKaminsky",
+		"websiteURL": " ",
+		"email": " ",
+		"help": {
+			"online": " "
+		},
+		"platforms": [{
+			"name": "Raspberry",
+			"architecture": "avr",
+			"version": "1.0",
+			"category": "Arduino",
+			"url": "https://codeload.github.com/yasir1brahim/RasPiArduino/tar.gz/linuxPi3",
+			"archiveFileName": "RasPiArduino-linuxPi3.tar.gz",
+			"checksum": "SHA-256:404683f07dea2002472b0502900f7a5a44c1f8ca3f5a4c9e989ec43bbaa17488",
+			"size": "92666332",
+			"help": {
+				"online": " "
+			},
+			"boards": [{
+				"name": "Raspberry"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "avr-gcc",
+				"version": "4.8.1-arduino5"
+			}, {
+				"packager": "arduino",
+				"name": "avrdude",
+				"version": "6.0.1-arduino5"
+			}]
+		}],
+
+		"tools": []
+		}]
+	}]
+}
