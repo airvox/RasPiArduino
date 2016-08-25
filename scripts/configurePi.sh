@@ -14,9 +14,7 @@ echo ""
 echo "Isolating core 1"
 echo ""
 
-cat > /boot/cmdline.txt <<EOL
-dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 	elevator=deadline fsck.repair=yes rootwait isolcpus=1
-EOL
+echo "$(cat /boot/cmdline.txt)"" isolcpus=1" > /boot/cmdline.txt
 
 echo ""
 echo "Configure program to run on startup"
